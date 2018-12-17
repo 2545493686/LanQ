@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanQ", "LanQ\LanQ.csproj", "{CFDEB61A-2BD8-4FC4-B69B-22618500E65A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFDEB61A-2BD8-4FC4-B69B-22618500E65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDEB61A-2BD8-4FC4-B69B-22618500E65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDEB61A-2BD8-4FC4-B69B-22618500E65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDEB61A-2BD8-4FC4-B69B-22618500E65A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99325321-77CF-4B7D-A06E-98A101CACC9B}
+	EndGlobalSection
+EndGlobal
