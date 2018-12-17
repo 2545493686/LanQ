@@ -9,24 +9,6 @@ namespace LanQ
 {
     public static class StringExpand
     {
-        public static Match Match(this string input, string pattern)
-        {
-            Regex regex = new Regex(input);
-            return regex.Match(pattern);
-        }
-
-        public static MatchCollection Matches(this string input, string pattern)
-        {
-            Regex regex = new Regex(input);
-            return regex.Matches(pattern);
-        }
-
-        public static bool IsMatch(this string input, string pattern)
-        {
-            Regex regex = new Regex(input);
-            return regex.IsMatch(pattern);
-        }
-
         public static string Trim(this string text, string startTrim, string endTrim)
         {
             return text.TrimStart(startTrim.ToCharArray()).TrimEnd(endTrim.ToCharArray());
