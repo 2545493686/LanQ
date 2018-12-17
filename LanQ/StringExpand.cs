@@ -26,5 +26,10 @@ namespace LanQ
             Regex regex = new Regex(input);
             return regex.IsMatch(pattern);
         }
+
+        public static string Trim(this string text, string startTrim, string endTrim)
+        {
+            return text.TrimStart(startTrim.ToCharArray()).TrimEnd(endTrim.ToCharArray());
+        }
     }
 }
