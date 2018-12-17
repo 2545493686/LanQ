@@ -34,7 +34,12 @@ namespace LanQ
         /// <param name="encoding">默认值 "UTF-8"，编码</param>
         public void WriteLine(string text, int position = -1, string encoding = "UTF-8")
         {
-            byte[] contents = Encoding.GetEncoding(encoding).GetBytes(text + "\n\r");
+            Write(text + Environment.NewLine, position, encoding);
+        }
+
+        public void Write(string text, int position = -1, string encoding = "UTF-8")
+        {
+            byte[] contents = Encoding.GetEncoding(encoding).GetBytes(text);
             FileStream.Position = position == -1 ? FileStream.Length : position;
             FileStream.Write(contents, 0, contents.Length);
         }
