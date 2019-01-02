@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListExpand.cs" />
     <Compile Include="EnumExpand.cs" />
     <Compile Include="StringExpand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
